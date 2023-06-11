@@ -1,22 +1,24 @@
-transformers
-transformers[sentencepiece]
-datasets
-sacreblue
-rouge_score
-py7zr
+transformers #we use google huggingface API 
+transformers[sentencepiece] 
+datasets #We need dataset
+sacrebleu #it is evaluation matrix (row matrix in screbleu library)
+rouge_score 
+py7zr #necessary library to use transformer
 pandas
 nltk
 tqdm
 PyYAML
 matplotlib
-torch
+torch #if gpu available in system then from pytorch website install gpu version. Select cuda version while installing
 notebook
-boto3
+boto3    #required libraries
 mypy-boto3-s3
 python-box==6.0.2
 ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
--e .
+-e .   #install setup.py The setup.py consist logic
+#push package in pypy library
+
 
